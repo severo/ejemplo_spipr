@@ -1,0 +1,45 @@
+<paquet
+	prefix="adsib"
+	categorie="squelette"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.2.1;3.2.*]"
+	logo=""
+	documentation=""
+>
+	<!--
+		Paquet généré le 2018-04-16 21:39:28
+		(Vous pouvez bien entendu supprimer ces commentaires)
+	-->
+
+	<nom>ADSIB</nom>
+
+
+	<!-- cette balise peut être présente plusieurs fois s'il y a plusieurs auteurs -->
+	<auteur>Sylvain Lesage</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<!--
+		Exemple de commandes
+		* dependances
+		<necessite nom="saisies" compatibilite="[2.4.0;]" />
+		<utilise nom="saisies" compatibilite="[2.4.0;]" />
+		<lib nom="simplehtmldom" lien="http://chemin_vers_archive.zip" />
+		* pipelines
+		<pipeline nom="autoriser" inclure="adsib_autorisations.php" />
+		<pipeline nom="insert_head" inclure="adsib_pipelines.php" />
+		* declarer un pipeline
+		<pipeline nom="mon_pipeline" action="" />
+		* parents de menus de SPIP :
+				menu_accueil (à éviter), menu_edition, menu_publication,
+				menu_activite, menu_squelette, menu_administration, menu_configuration
+		<menu nom="adsib" titre="adsib:adsib_titre" parent="menu_edition"  icone="images/adsib-16.png" />
+		* parents d'onglets... configuration, plugins, statistiques, ...
+		<onglet nom="adsib" titre="adsib:adsib_titre" parent="configuration" icone="images/adsib-24.png" />
+	-->
+
+
+
+	<necessite nom="spipr_doc" compatibilite="[0.5.14;]" />
+</paquet>
